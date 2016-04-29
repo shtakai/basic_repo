@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('button').click(function() {
-    $('p').text("clicked");
+    $('p').append("clicked");
     console.log('click');
   });
 })
